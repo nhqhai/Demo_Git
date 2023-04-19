@@ -7,3 +7,7 @@ Các bước để đẩy code lên Remote Repo
     B1: sẽ đẩy các file có sự thay đổi lên staging area, dùng lệnh git add + tên file nếu muốn đẩy từng file, đẩy tất cả thì dùng lệnh git add ., để kiẻm tra sự thay đổi ta có thể dùng lệnh git status, muốn đảo ngược lại việc thêm các file có sự thay đổi lên staging area dùng lệnh git reset
     B2: tạo ra commit để ghi chú lại sự thay đổi code, chúng ta dùng lệnh git commit -m "lời nhắn", muốn kiểm tra các commit đang có sẽ dùng lệnh git log
     B3: đẩy code từ local repo lên remote repo để lưu trữ, lần đầu sẽ dùng lệnh git push -u origin + tên nhánh (main/master), những lần sau chỉ cần dùng lệnh git push origin
+
+    Khi đi làm tham gia 1 dự án mới, cần lấy source code từ trên remote repo về thì chúng ta tạo 1 thư mục chứa và sử dụng lệnh git clone (link url)
+
+    Khi muốn test qua một số chức năng mới, nhưng sợ ảnh hưởng tới các đoạn code cũ đang có, ta sẽ commit lại đoạn code đó và chỉnh sửa, nếu muốn qua về vị trí commit đó khi lỗi ta có thể dùng lênh git stash
