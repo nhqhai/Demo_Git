@@ -1,0 +1,7 @@
+cách tạo Local Reponsitory: git init 
+Khi thành công sẽ xuất hiện 1  thư mục ẩm .git bên trong thư mục dự án
+
+Cách kết nối Remote Repo với Local Repo lại với nhau: dùng lệnh git remote add origin kèm url đường dẫn tới source trên remote
+
+Các bước để đẩy code lên Remote Repo
+    B1: sẽ đẩy các file có sự thay đổi lên staging area, dùng lệnh git add + tên file nếu muốn đẩy từng file, đẩy tất cả thì dùng lệnh git add ., để kiẻm tra sự thay đổi ta có thể dùng lệnh git status
